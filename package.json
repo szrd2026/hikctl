@@ -1,0 +1,20 @@
+{
+  "name": "hikctl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "轻量海康设备管理工具 —— 单进程、零依赖（仅 Node.js 内置模块）",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node test/run.js",
+    "test:ui": "node tools/uitest.mjs",
+    "check:ui": "node tools/staticcheck.mjs web",
+    "mock": "node test/mock-device.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

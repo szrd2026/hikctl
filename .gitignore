@@ -1,0 +1,27 @@
+# ---- 运行期数据（含真实设备 IP / MAC / 序列号 / 加密后的密码）----
+# 这些目录由程序自己创建，绝对不要提交。
+data/
+demo-data/
+reports/
+*.local.json
+
+# 运行时状态
+runtime.json
+*.log
+
+# ---- 依赖 / 构建产物 ----
+node_modules/
+dist/
+*.tmp
+*.bak
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 截图的可再生成中间产物 ----
+*.png.tmp
